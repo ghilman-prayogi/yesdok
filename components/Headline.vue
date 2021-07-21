@@ -2,7 +2,7 @@
     <section class="bg-gray-100 relative py-8 flex">
         <div class="container max-w-5xl mx-auto">
             <div class="flex flex-wrap">
-                <div class="w-12/12 md:w-6/12 lg:w-6/12 px-1">
+                <div class="w-12/12 md:w-6/12 lg:w-6/12 px-1 pb-2 md:pb-0">
                     <div class="h-full" v-swiper="swiperOption">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide" v-for="(list, index) in headline.slice(0, 4)" :key="index">
@@ -29,7 +29,7 @@
                 <div class="w-12/12 md:w-6/12 lg:w-6/12 px-1">
                     <div class="mb-2 border border-gray-300 relative flex flex-col md:flex-row items-center md:h-40">
                         <div class="z-0 order-1 md:order-1 relative w-full md:w-3/5 h-80 md:h-full overflow-hidden">
-                            <div class="absolute inset-0 w-full h-full object-fill object-center bg-blue-400 bg-opacity-30 bg-cover bg-bottom" style="background-image: url( https://images.unsplash.com/photo-1525302220185-c387a117886e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80 ); background-blend-mode: multiply;"></div>
+                            <div class="absolute inset-0 w-full h-full object-fill object-center bg-blue-400 bg-opacity-30 bg-cover bg-bottom" style="background-image: url( https://assets.pikiran-rakyat.com/crop/0x0:0x0/750x500/photo/2021/06/28/4112146153.jpg ); background-blend-mode: multiply;"></div>
                             <svg class="hidden md:block absolute right-0 inset-y-100 h-full w-24 fill-current text-white -mr-12" style="transform: scaleX(-1);" viewBox="0 0 100 100" preserveAspectRatio="none">
                                 <polygon points="50,0 100,0 50,100 0,100" />
                             </svg>
@@ -39,7 +39,7 @@
                             <div class="p-4 md:pr-18 md:pl-4 mx-2 md:mx-0 h-full bg-white md:shadow-none">
                                 <div class="mb-2">
                                     <a href="#" class="bg-yellow-500 px-4 py-1 text-xs uppercase font-semibold text-white rounded-md">
-                                        Sehat
+                                        Wired
                                     </a>
                                 </div>
                                 <div>
@@ -113,5 +113,8 @@ export default {
 </script>
 
 <style lang="scss" scooped>
+.swiper-slide {
+    width: 100% !important;
+}
 </style>
 

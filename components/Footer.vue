@@ -1,8 +1,8 @@
 <template>
-    <div class="mt-40">
+    <div class="mt-20">
         <div class="md:py-12 bg-gray-600">
             <div class="max-w-6xl m-auto text-white flex flex-wrap justify-center md:justify-start">
-                <div class="px-5 w-full">
+                <div class="pt-5 md:pt-0 px-5 w-full">
                     <a href="#" class="tracking-widest">
                         <img class="w-28" src="/headeryesdok.png" />
                     </a>

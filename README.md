@@ -1,4 +1,4 @@
-# yesdoc
+# YesDok
 
 ## Build Setup
 

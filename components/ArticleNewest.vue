@@ -3,9 +3,9 @@
         <div v-for="list in listArticleHealth.slice(0, 5)" class="max-w-md mx-auto mt-8 overflow-hidden md:max-w-2xl">
             <div class="md:flex">
                 <div class="md:flex-shrink-0">
-                    <img class="h-48 w-full object-cover md:w-48" :src="list.urlToImage" :alt="list.title">
+                    <img class="h-48 w-full object-cover md:w-48" :src="list.urlToImage">
                 </div>
-                <div class="p-4 pt-0">
+                <div class="pt-4 md:p-4 md:pt-0">
                     <div class="uppercase tracking-wide text-xs text-yellow-500 font-semibold">{{ list.source.name }}</div>
                     <a href="#" class="line-clamp-4 block mt-1 text-lg leading-tight font-medium text-black hover:underline">{{ list.title }}</a>
                     <div class="flex inline-flex text-xs text-gray-400 mt-2">

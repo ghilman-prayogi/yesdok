@@ -1,9 +1,9 @@
 <template>
-    <div>
-        <div v-for="list in listArticlePopular" class="max-w-md mx-auto mt-8 overflow-hidden md:max-w-2xl">
+    <div class="flex flex-wrap -mx-1">
+        <div v-for="list in listArticlePopular" class="w-6/12 md:w-full px-1 mt-8">
             <div class="md:flex">
             <div class="md:flex-shrink-0">
-                <img class="h-20 w-full object-cover md:w-20" :src="list.urlToImage" :alt="list.title">
+                <img class="h-20 w-full object-cover md:w-20" :src="list.urlToImage">
             </div>
             <div class="p-4 pt-0 pb-0">
                 <a :href="list.url" class="line-clamp-3 block text-sm leading-tight font-medium text-black hover:underline">{{ list.title }}</a>
