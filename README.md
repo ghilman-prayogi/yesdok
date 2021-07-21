@@ -1,4 +1,5 @@
 # YesDok
+Developed with the SSR method which will be very possible and flexible for SEO development. It uses the css framework to extract component classes from iterative utility patterns, which makes it easy to update multiple instances in a component from one place and is highly responsive. Designed with state management library specifically tuned for building complex, large-scale applications.
 
 ## Build Setup
 
